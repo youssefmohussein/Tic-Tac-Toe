@@ -58,14 +58,13 @@ def draw_move(board):
         row, col = random.choice(free_fields)
         board[row][col] = 'X'
 
-# Initial board
+
 board = [
     ['1', '2', '3'],
     ['4', 'X', '6'],
     ['7', '8', '9']
 ]
-
-# Game loop
+#main
 while True:
     # Player's move
     enter_move(board)
